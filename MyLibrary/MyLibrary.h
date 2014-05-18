@@ -10,6 +10,6 @@
 
 @interface MyLibrary : NSObject
 
-+ (NSString*) greeting;
++ (NSString*) greetingForName: (NSString*) name;
 
 @end

@@ -10,9 +10,9 @@
 
 @implementation MyLibrary
 
-+ (NSString*) greeting
++ (NSString*) greetingForName: (NSString*) name
 {
-    return @"Hello, world!";
+    return [NSString stringWithFormat: @"Hello, %@!", name];
 }
 
 @end
