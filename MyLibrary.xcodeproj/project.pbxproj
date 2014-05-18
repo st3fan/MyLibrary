@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F89390D5192925D50061FB2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89390D4192925D50061FB2E /* Foundation.framework */; };
+		F89390DA192925D50061FB2E /* MyLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F89390D9192925D50061FB2E /* MyLibrary.h */; };
+		F89390DC192925D50061FB2E /* MyLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = F89390DB192925D50061FB2E /* MyLibrary.m */; };
+		F89390E3192925D50061FB2E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89390E2192925D50061FB2E /* XCTest.framework */; };
+		F89390E4192925D50061FB2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89390D4192925D50061FB2E /* Foundation.framework */; };
+		F89390E6192925D50061FB2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89390E5192925D50061FB2E /* UIKit.framework */; };
+		F89390E9192925D50061FB2E /* libMyLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F89390D1192925D50061FB2E /* libMyLibrary.a */; };
+		F89390EF192925D50061FB2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F89390ED192925D50061FB2E /* InfoPlist.strings */; };
+		F89390F1192925D50061FB2E /* MyLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F89390F0192925D50061FB2E /* MyLibraryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F89390E7192925D50061FB2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F89390C9192925D50061FB2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89390D0192925D50061FB2E;
+			remoteInfo = MyLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F89390CF192925D50061FB2E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F89390DA192925D50061FB2E /* MyLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F89390D1192925D50061FB2E /* libMyLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89390D4192925D50061FB2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F89390D8192925D50061FB2E /* MyLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		F89390D9192925D50061FB2E /* MyLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLibrary.h; sourceTree = "<group>"; };
+		F89390DB192925D50061FB2E /* MyLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLibrary.m; sourceTree = "<group>"; };
+		F89390E1192925D50061FB2E /* MyLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89390E2192925D50061FB2E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F89390E5192925D50061FB2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F89390EC192925D50061FB2E /* MyLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyLibraryTests-Info.plist"; sourceTree = "<group>"; };
+		F89390EE192925D50061FB2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F89390F0192925D50061FB2E /* MyLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLibraryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F89390CE192925D50061FB2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89390D5192925D50061FB2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89390DE192925D50061FB2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89390E3192925D50061FB2E /* XCTest.framework in Frameworks */,
+				F89390E6192925D50061FB2E /* UIKit.framework in Frameworks */,
+				F89390E4192925D50061FB2E /* Foundation.framework in Frameworks */,
+				F89390E9192925D50061FB2E /* libMyLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F89390C8192925D50061FB2E = {
+			isa = PBXGroup;
+			children = (
+				F89390D6192925D50061FB2E /* MyLibrary */,
+				F89390EA192925D50061FB2E /* MyLibraryTests */,
+				F89390D3192925D50061FB2E /* Frameworks */,
+				F89390D2192925D50061FB2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F89390D2192925D50061FB2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F89390D1192925D50061FB2E /* libMyLibrary.a */,
+				F89390E1192925D50061FB2E /* MyLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F89390D3192925D50061FB2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F89390D4192925D50061FB2E /* Foundation.framework */,
+				F89390E2192925D50061FB2E /* XCTest.framework */,
+				F89390E5192925D50061FB2E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F89390D6192925D50061FB2E /* MyLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				F89390D9192925D50061FB2E /* MyLibrary.h */,
+				F89390DB192925D50061FB2E /* MyLibrary.m */,
+				F89390D7192925D50061FB2E /* Supporting Files */,
+			);
+			path = MyLibrary;
+			sourceTree = "<group>";
+		};
+		F89390D7192925D50061FB2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F89390D8192925D50061FB2E /* MyLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F89390EA192925D50061FB2E /* MyLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F89390F0192925D50061FB2E /* MyLibraryTests.m */,
+				F89390EB192925D50061FB2E /* Supporting Files */,
+			);
+			path = MyLibraryTests;
+			sourceTree = "<group>";
+		};
+		F89390EB192925D50061FB2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F89390EC192925D50061FB2E /* MyLibraryTests-Info.plist */,
+				F89390ED192925D50061FB2E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F89390D0192925D50061FB2E /* MyLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89390F4192925D50061FB2E /* Build configuration list for PBXNativeTarget "MyLibrary" */;
+			buildPhases = (
+				F89390CD192925D50061FB2E /* Sources */,
+				F89390CE192925D50061FB2E /* Frameworks */,
+				F89390CF192925D50061FB2E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLibrary;
+			productName = MyLibrary;
+			productReference = F89390D1192925D50061FB2E /* libMyLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F89390E0192925D50061FB2E /* MyLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89390F7192925D50061FB2E /* Build configuration list for PBXNativeTarget "MyLibraryTests" */;
+			buildPhases = (
+				F89390DD192925D50061FB2E /* Sources */,
+				F89390DE192925D50061FB2E /* Frameworks */,
+				F89390DF192925D50061FB2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F89390E8192925D50061FB2E /* PBXTargetDependency */,
+			);
+			name = MyLibraryTests;
+			productName = MyLibraryTests;
+			productReference = F89390E1192925D50061FB2E /* MyLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F89390C9192925D50061FB2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Stefan Arentz";
+			};
+			buildConfigurationList = F89390CC192925D50061FB2E /* Build configuration list for PBXProject "MyLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F89390C8192925D50061FB2E;
+			productRefGroup = F89390D2192925D50061FB2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F89390D0192925D50061FB2E /* MyLibrary */,
+				F89390E0192925D50061FB2E /* MyLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F89390DF192925D50061FB2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89390EF192925D50061FB2E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F89390CD192925D50061FB2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89390DC192925D50061FB2E /* MyLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89390DD192925D50061FB2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89390F1192925D50061FB2E /* MyLibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F89390E8192925D50061FB2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89390D0192925D50061FB2E /* MyLibrary */;
+			targetProxy = F89390E7192925D50061FB2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F89390ED192925D50061FB2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89390EE192925D50061FB2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F89390F2192925D50061FB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F89390F3192925D50061FB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F89390F5192925D50061FB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MyLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyLibrary/MyLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F89390F6192925D50061FB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MyLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyLibrary/MyLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F89390F8192925D50061FB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyLibrary/MyLibrary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyLibraryTests/MyLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F89390F9192925D50061FB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyLibrary/MyLibrary-Prefix.pch";
+				INFOPLIST_FILE = "MyLibraryTests/MyLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F89390CC192925D50061FB2E /* Build configuration list for PBXProject "MyLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89390F2192925D50061FB2E /* Debug */,
+				F89390F3192925D50061FB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89390F4192925D50061FB2E /* Build configuration list for PBXNativeTarget "MyLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89390F5192925D50061FB2E /* Debug */,
+				F89390F6192925D50061FB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F89390F7192925D50061FB2E /* Build configuration list for PBXNativeTarget "MyLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89390F8192925D50061FB2E /* Debug */,
+				F89390F9192925D50061FB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F89390C9192925D50061FB2E /* Project object */;
+}
