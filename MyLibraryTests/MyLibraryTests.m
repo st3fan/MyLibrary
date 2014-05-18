@@ -29,7 +29,7 @@
 
 - (void)testExample
 {
-    XCTAssertEqualObjects(@"Hello, world!", [MyLibrary greeting]);
+    XCTAssertEqualObjects(@"Hello, Stefan!", [MyLibrary greetingForName: @"Stefan"]);
 }
 
 @end
