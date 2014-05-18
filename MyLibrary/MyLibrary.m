@@ -10,4 +10,9 @@
 
 @implementation MyLibrary
 
++ (NSString*) greeting
+{
+    return @"Hello, world!";
+}
+
 @end

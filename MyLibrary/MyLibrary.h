@@ -10,4 +10,6 @@
 
 @interface MyLibrary : NSObject
 
++ (NSString*) greeting;
+
 @end
